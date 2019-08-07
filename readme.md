@@ -12,7 +12,7 @@ Assuming you have Python installed, you can get Cookiecutter through pip:
 
 Then run cookiecutter on this template:
 
-    cookiecutter <github url>
+    cookiecutter gh:lkummer/cookiecutter-juce-module
 
 Once you answer all the prompts you should have a folder that can be added as a Juce module through Projucer.
 
