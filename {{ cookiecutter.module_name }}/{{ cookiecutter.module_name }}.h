@@ -7,20 +7,20 @@
 
  BEGIN_JUCE_MODULE_DECLARATION
 
-  ID: {{ cookiecutter.project_name }}
-  vendor: {{ cookiecutter.project_author }}
-  version: {{ cookiecutter.project_version }}
-  name: {{ cookiecutter.project_pretty_name }}
-{% if cookiecutter.project_description %}
-  description: {{ cookiecutter.project_description }}
+  ID: {{ cookiecutter.module_name }}
+  vendor: {{ cookiecutter.module_author }}
+  version: {{ cookiecutter.module_version }}
+  name: {{ cookiecutter.module_pretty_name }}
+{% if cookiecutter.module_description %}
+  description: {{ cookiecutter.module_description }}
 {% endif %}
-{% if cookiecutter.project_website %}
-  website: {{ cookiecutter.project_website }}
+{% if cookiecutter.module_website %}
+  website: {{ cookiecutter.module_website }}
 {% endif %}
-  license: {{ cookiecutter.project_license }}
+  license: {{ cookiecutter.module_license }}
 
-  dependencies: {{ cookiecutter.project_dependencies }}
-  minimumCppStandard: {{ cookiecutter.project_cpp_standard }}
+  dependencies: {{ cookiecutter.module_dependencies }}
+  minimumCppStandard: {{ cookiecutter.module_cpp_standard }}
 
  END_JUCE_MODULE_DECLARATION
 

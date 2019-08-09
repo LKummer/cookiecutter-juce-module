@@ -1,12 +1,12 @@
 {
-    "project_name": "juce_module",
-    "project_pretty_name": "Juce Module",
-    "project_description": "",
-    "project_author": "Author",
-    "project_version": "1.0.0",
-    "project_website": "",
-    "project_license": "GPL",
-    "project_dependencies": "",
-    "project_cpp_standard": "14",
+    "module_name": "juce_module",
+    "module_pretty_name": "Juce Module",
+    "module_description": "",
+    "module_author": "Author",
+    "module_version": "1.0.0",
+    "module_website": "",
+    "module_license": "GPL",
+    "module_dependencies": "",
+    "module_cpp_standard": "14",
     "file_name": "class"
 }
