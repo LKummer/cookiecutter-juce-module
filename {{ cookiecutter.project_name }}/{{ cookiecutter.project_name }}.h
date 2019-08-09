@@ -11,12 +11,12 @@
   vendor: {{ cookiecutter.project_author }}
   version: {{ cookiecutter.project_version }}
   name: {{ cookiecutter.project_pretty_name }}
-  {% if cookiecutter.project_description %}
+{% if cookiecutter.project_description %}
   description: {{ cookiecutter.project_description }}
-  {% endif %}
-  {% if cookiecutter.project_website %}
-    website: {{ cookiecutter.project_website }}
-  {% endif %}
+{% endif %}
+{% if cookiecutter.project_website %}
+  website: {{ cookiecutter.project_website }}
+{% endif %}
   license: {{ cookiecutter.project_license }}
 
   dependencies: {{ cookiecutter.project_dependencies }}
