@@ -28,4 +28,4 @@
 #pragma once
 
 // Include module headers:
-#include "source/{{ cookiecutter.file_name }}.h";
+#include "source/{{ cookiecutter.file_name }}.h"
